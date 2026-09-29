@@ -1,0 +1,153 @@
+02:06:33 >>> catboost
+02:06:45 rows: train 4,000,000, early stopping 1,000,000
+02:06:45 CB {'depth': 6, 'l2_leaf_reg': 3.0, 'random_strength': 0.5}: reused from train_ladder run (0.33053)
+02:21:17 CB {'depth': 8, 'l2_leaf_reg': 3.0, 'random_strength': 0.5}: 0.33059 iters=1598 871s
+02:39:16 CB {'depth': 6, 'l2_leaf_reg': 10.0, 'random_strength': 0.5}: 0.33055 iters=2552 1077s
+03:33:17 CB-I4 fit 3240s iters=2998
+03:34:20 val predictions 2024-07: 676,807
+03:35:17 val predictions 2024-08: 660,639
+03:36:09 val predictions 2024-09: 621,649
+03:37:06 val predictions 2024-10: 656,283
+03:37:57 val predictions 2024-11: 614,597
+03:38:53 val predictions 2024-12: 631,944
+03:39:45 val predictions 2025-01: 599,013
+03:40:32 val predictions 2025-02: 559,577
+03:41:29 val predictions 2025-03: 664,932
+03:42:27 val predictions 2025-04: 644,084
+03:43:26 val predictions 2025-05: 667,586
+03:44:22 val predictions 2025-06: 674,179
+03:44:24 all done in 5871s
+03:44:25 >>> freeze
+03:44:50 calibrators: {'R0': 'isotonic', 'R0b': 'isotonic', 'LR-I1': 'isotonic', 'LR-I2': 'isotonic', 'LR-I3': 'isotonic', 'LR-I4': 'isotonic', 'LGBM-I1': 'platt', 'LGBM-I2': 'isotonic', 'LGBM-I3': 'isotonic', 'LGBM-I4': 'isotonic', 'LGBM-I5': 'isotonic', 'CB-I4': 'isotonic'}
+03:45:01 frozen 22 artefacts
+03:45:01 >>> learning_curve
+/Users/sabarish/Desktop/flight-delay/.venv/lib/python3.11/site-packages/lightgbm/sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+03:45:27 I1 n=250,000: brier 0.14447 iters 81
+/Users/sabarish/Desktop/flight-delay/.venv/lib/python3.11/site-packages/lightgbm/sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+03:45:43 I1 n=500,000: brier 0.14388 iters 77
+/Users/sabarish/Desktop/flight-delay/.venv/lib/python3.11/site-packages/lightgbm/sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+03:46:01 I1 n=1,000,000: brier 0.14330 iters 83
+/Users/sabarish/Desktop/flight-delay/.venv/lib/python3.11/site-packages/lightgbm/sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+03:46:26 I1 n=2,000,000: brier 0.14309 iters 86
+/Users/sabarish/Desktop/flight-delay/.venv/lib/python3.11/site-packages/lightgbm/sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+03:47:13 I1 n=4,000,000: brier 0.14267 iters 99
+/Users/sabarish/Desktop/flight-delay/.venv/lib/python3.11/site-packages/lightgbm/sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+03:47:40 I4 n=250,000: brier 0.10410 iters 139
+/Users/sabarish/Desktop/flight-delay/.venv/lib/python3.11/site-packages/lightgbm/sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+03:48:17 I4 n=500,000: brier 0.10322 iters 213
+/Users/sabarish/Desktop/flight-delay/.venv/lib/python3.11/site-packages/lightgbm/sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+03:49:15 I4 n=1,000,000: brier 0.10229 iters 310
+/Users/sabarish/Desktop/flight-delay/.venv/lib/python3.11/site-packages/lightgbm/sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+03:51:04 I4 n=2,000,000: brier 0.10150 iters 464
+/Users/sabarish/Desktop/flight-delay/.venv/lib/python3.11/site-packages/lightgbm/sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+03:54:20 I4 n=4,000,000: brier 0.10083 iters 591
+03:54:20 >>> sensitivity_i1
+/Users/sabarish/Desktop/flight-delay/.venv/lib/python3.11/site-packages/lightgbm/sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+03:54:45 I1 {'num_leaves': 63, 'min_child_samples': 100, 'reg_lambda': 0.0}: 0.44630 iters 112
+/Users/sabarish/Desktop/flight-delay/.venv/lib/python3.11/site-packages/lightgbm/sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+03:55:06 I1 {'num_leaves': 63, 'min_child_samples': 100, 'reg_lambda': 10.0}: 0.44633 iters 112
+/Users/sabarish/Desktop/flight-delay/.venv/lib/python3.11/site-packages/lightgbm/sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+03:55:22 I1 {'num_leaves': 63, 'min_child_samples': 1000, 'reg_lambda': 0.0}: 0.44670 iters 124
+/Users/sabarish/Desktop/flight-delay/.venv/lib/python3.11/site-packages/lightgbm/sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+03:55:39 I1 {'num_leaves': 63, 'min_child_samples': 1000, 'reg_lambda': 10.0}: 0.44652 iters 128
+/Users/sabarish/Desktop/flight-delay/.venv/lib/python3.11/site-packages/lightgbm/sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+03:56:02 I1 {'num_leaves': 255, 'min_child_samples': 100, 'reg_lambda': 0.0}: 0.44651 iters 83
+/Users/sabarish/Desktop/flight-delay/.venv/lib/python3.11/site-packages/lightgbm/sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+03:56:29 I1 {'num_leaves': 255, 'min_child_samples': 100, 'reg_lambda': 10.0}: 0.44666 iters 112
+/Users/sabarish/Desktop/flight-delay/.venv/lib/python3.11/site-packages/lightgbm/sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+03:56:53 I1 {'num_leaves': 255, 'min_child_samples': 1000, 'reg_lambda': 0.0}: 0.44644 iters 81
+/Users/sabarish/Desktop/flight-delay/.venv/lib/python3.11/site-packages/lightgbm/sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+03:57:16 I1 {'num_leaves': 255, 'min_child_samples': 1000, 'reg_lambda': 10.0}: 0.44659 iters 81
+/Users/sabarish/Desktop/flight-delay/.venv/lib/python3.11/site-packages/lightgbm/sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+03:58:13 done {'value': -0.0005537335004943689, 'ci_low': -0.0018520431960610817, 'ci_high': 0.0008224990266259472} {'value': 0.2936486378121421, 'ci_low': 0.2835229923628295, 'ci_high': 0.30224984612629086}
+03:58:13 >>> final
+03:58:14 test access logged: 1
+03:59:13 test predictions 2025-07: 696,049
+04:00:09 test predictions 2025-08: 666,242
+04:01:00 test predictions 2025-09: 621,601
+04:01:57 test predictions 2025-10: 668,332
+04:02:49 test predictions 2025-11: 630,188
+04:03:42 test predictions 2025-12: 644,987
+04:04:32 test predictions 2026-01: 602,953
+04:05:20 test predictions 2026-02: 568,789
+04:06:16 test predictions 2026-03: 675,500
+04:07:12 test predictions 2026-04: 660,674
+04:08:10 test predictions 2026-05: 677,208
+04:08:32 ladder metrics done
+04:09:19 conformal done
+04:09:21 decision done
+04:09:36 robustness done
+04:10:11 backward predictions 2021-04: 473,936
+04:10:52 backward predictions 2021-05: 520,059
+04:11:39 backward predictions 2021-06: 573,779
+04:12:31 backward predictions 2021-07: 615,703
+04:13:24 backward predictions 2021-08: 611,494
+04:14:12 backward predictions 2021-09: 567,916
+04:15:02 backward predictions 2021-10: 595,373
+04:15:50 backward predictions 2021-11: 576,693
+04:16:38 backward predictions 2021-12: 580,238
+04:16:50 backward done
+04:38:15 final evaluation written
+04:38:16 >>> horizon
+/Users/sabarish/Desktop/flight-delay/.venv/lib/python3.11/site-packages/lightgbm/sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+04:39:09 h=30 I1: iters 96
+/Users/sabarish/Desktop/flight-delay/.venv/lib/python3.11/site-packages/lightgbm/sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+04:42:56 h=30 I4: iters 433
+/Users/sabarish/Desktop/flight-delay/.venv/lib/python3.11/site-packages/lightgbm/sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+04:44:00 h=120 I1: iters 96
+/Users/sabarish/Desktop/flight-delay/.venv/lib/python3.11/site-packages/lightgbm/sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+04:47:27 h=120 I4: iters 420
+/Users/sabarish/Desktop/flight-delay/.venv/lib/python3.11/site-packages/lightgbm/sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+04:48:22 h=360 I1: iters 96
+/Users/sabarish/Desktop/flight-delay/.venv/lib/python3.11/site-packages/lightgbm/sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+04:51:15 h=360 I4: iters 353
+04:51:16 horizon done supported
+04:51:17 >>> figures
+ok  fig00_hero_cost
+ok  fig01_data_audit
+ok  fig02_tz_check
+ok  fig03_asof_timeline
+ok  fig04_disruption_landscape
+ok  fig05_network_map
+ok  fig06_propagation
+ok  fig07_info_model_grid
+ok  fig08_ladder_forest
+ok  fig09_reliability
+ok  fig10_calibration_drift
+ok  fig11_conformal
+ok  fig12_holds_breaks
+ok  fig13_shap
+ok  fig14_horizon
+ok  fig15_learning_curve
+04:51:20 >>> export_app
+exported 311,192 flights; bundle 45.1 MB
+04:51:26 >>> tests
+.....................                                                    [100%]
+04:54:04 >>> docs
+docs rendered
+04:54:05 >>> ALL_DONE

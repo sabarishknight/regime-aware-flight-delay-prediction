@@ -1,0 +1,214 @@
+{
+  "_provenance": {
+    "created_at": "2026-09-28T22:14:24+00:00",
+    "git_commit": "uncommitted",
+    "config_hash": "cf1b7d4a0c10c795",
+    "wall_seconds_this_script": 5871
+  },
+  "models": {
+    "R0b": {
+      "fit_seconds": 0.0,
+      "weight_on_live_share": 0.55,
+      "fit_on": "V-A sample"
+    },
+    "LR-I1": {
+      "fit_seconds": 6.0,
+      "best_iter": null,
+      "rows": 1500000,
+      "C": 0.1
+    },
+    "LR-I2": {
+      "fit_seconds": 14.0,
+      "best_iter": null,
+      "rows": 1500000,
+      "C": 0.1
+    },
+    "LR-I3": {
+      "fit_seconds": 19.0,
+      "best_iter": null,
+      "rows": 1500000,
+      "C": 0.1
+    },
+    "LR-I4": {
+      "fit_seconds": 24.0,
+      "best_iter": null,
+      "rows": 1500000,
+      "C": 0.1
+    },
+    "LGBM-I1": {
+      "fit_seconds": 55.0,
+      "best_iter": 99,
+      "rows": 4000000,
+      "num_leaves": 255,
+      "min_child_samples": 100,
+      "reg_lambda": 10.0
+    },
+    "LGBM-I2": {
+      "fit_seconds": 176.0,
+      "best_iter": 544,
+      "rows": 4000000,
+      "num_leaves": 255,
+      "min_child_samples": 100,
+      "reg_lambda": 10.0
+    },
+    "LGBM-I3": {
+      "fit_seconds": 217.0,
+      "best_iter": 614,
+      "rows": 4000000,
+      "num_leaves": 255,
+      "min_child_samples": 100,
+      "reg_lambda": 10.0
+    },
+    "LGBM-I4": {
+      "fit_seconds": 221.0,
+      "best_iter": 591,
+      "rows": 4000000,
+      "num_leaves": 255,
+      "min_child_samples": 100,
+      "reg_lambda": 10.0
+    },
+    "LGBM-I5": {
+      "fit_seconds": 213.0,
+      "best_iter": 506,
+      "rows": 4000000,
+      "num_leaves": 255,
+      "min_child_samples": 100,
+      "reg_lambda": 10.0
+    },
+    "R0": {
+      "rows": "all training flights"
+    },
+    "CB-I4": {
+      "fit_seconds": 3240.3,
+      "rows": 4000000,
+      "best_iter": 2998,
+      "depth": 6,
+      "l2_leaf_reg": 3.0,
+      "random_strength": 0.5
+    }
+  },
+  "tuning": {
+    "LR": [
+      {
+        "C": 0.01,
+        "val_A_logloss": 0.36748
+      },
+      {
+        "C": 0.1,
+        "val_A_logloss": 0.36747
+      },
+      {
+        "C": 1.0,
+        "val_A_logloss": 0.36747
+      }
+    ],
+    "LGBM": [
+      {
+        "num_leaves": 63,
+        "min_child_samples": 100,
+        "reg_lambda": 0.0,
+        "val_A_logloss": 0.33319,
+        "best_iter": 737,
+        "fit_seconds": 82.0
+      },
+      {
+        "num_leaves": 63,
+        "min_child_samples": 100,
+        "reg_lambda": 10.0,
+        "val_A_logloss": 0.3332,
+        "best_iter": 750,
+        "fit_seconds": 104.0
+      },
+      {
+        "num_leaves": 63,
+        "min_child_samples": 1000,
+        "reg_lambda": 0.0,
+        "val_A_logloss": 0.33351,
+        "best_iter": 737,
+        "fit_seconds": 76.0
+      },
+      {
+        "num_leaves": 63,
+        "min_child_samples": 1000,
+        "reg_lambda": 10.0,
+        "val_A_logloss": 0.33358,
+        "best_iter": 737,
+        "fit_seconds": 76.0
+      },
+      {
+        "num_leaves": 255,
+        "min_child_samples": 100,
+        "reg_lambda": 0.0,
+        "val_A_logloss": 0.33297,
+        "best_iter": 328,
+        "fit_seconds": 66.0
+      },
+      {
+        "num_leaves": 255,
+        "min_child_samples": 100,
+        "reg_lambda": 10.0,
+        "val_A_logloss": 0.33294,
+        "best_iter": 335,
+        "fit_seconds": 112.0
+      },
+      {
+        "num_leaves": 255,
+        "min_child_samples": 1000,
+        "reg_lambda": 0.0,
+        "val_A_logloss": 0.33341,
+        "best_iter": 328,
+        "fit_seconds": 93.0
+      },
+      {
+        "num_leaves": 255,
+        "min_child_samples": 1000,
+        "reg_lambda": 10.0,
+        "val_A_logloss": 0.33337,
+        "best_iter": 323,
+        "fit_seconds": 137.0
+      }
+    ],
+    "CB": [
+      {
+        "depth": 6,
+        "l2_leaf_reg": 3.0,
+        "random_strength": 0.5,
+        "val_A_logloss": 0.33053,
+        "best_iter": 2718,
+        "fit_seconds": 1172.0
+      },
+      {
+        "depth": 8,
+        "l2_leaf_reg": 3.0,
+        "random_strength": 0.5,
+        "val_A_logloss": 0.3305872195795583,
+        "best_iter": 1598,
+        "fit_seconds": 871.1
+      },
+      {
+        "depth": 6,
+        "l2_leaf_reg": 10.0,
+        "random_strength": 0.5,
+        "val_A_logloss": 0.33055266037871905,
+        "best_iter": 2552,
+        "fit_seconds": 1077.2
+      }
+    ]
+  },
+  "regime_bic": {
+    "2": 3698937.9218012914,
+    "3": 3318685.875913285,
+    "4": 3209205.606267828,
+    "5": 3129700.109512004,
+    "6": 3053769.4441315136
+  },
+  "amendment": "A1: CatBoost search truncated to 3 configurations, I4 only",
+  "sizes": {
+    "final_train_rows": 4000000,
+    "tune_rows": 1500000,
+    "lr_rows": 1500000,
+    "early_stop_rows_VA": 1000000,
+    "val_rows_predicted": 7671290
+  },
+  "val_inference_seconds_all_models": 666.8
+}

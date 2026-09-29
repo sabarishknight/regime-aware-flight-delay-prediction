@@ -1,0 +1,123 @@
+{
+  "_provenance": {
+    "created_at": "2026-09-28T23:30:25+00:00",
+    "git_commit": "uncommitted",
+    "config_hash": "cf1b7d4a0c10c795"
+  },
+  "returncode": 0,
+  "n_passed": 22,
+  "n_failed": 0,
+  "n_skipped": 0,
+  "cases": [
+    {
+      "name": "tests.test_app_parity::test_app_probability_matches_pipeline",
+      "seconds": 0.205,
+      "outcome": "passed"
+    },
+    {
+      "name": "tests.test_app_parity::test_app_bundle_is_small",
+      "seconds": 0.0,
+      "outcome": "passed"
+    },
+    {
+      "name": "tests.test_app_parity::test_app_runs_headless_and_responds_to_inputs",
+      "seconds": 0.766,
+      "outcome": "passed"
+    },
+    {
+      "name": "tests.test_bootstrap::test_histogram_metrics_match_exact",
+      "seconds": 0.063,
+      "outcome": "passed"
+    },
+    {
+      "name": "tests.test_bootstrap::test_paired_bootstrap_detects_real_difference_and_not_noise",
+      "seconds": 0.221,
+      "outcome": "passed"
+    },
+    {
+      "name": "tests.test_bootstrap::test_block_weights_preserve_total_days",
+      "seconds": 0.001,
+      "outcome": "passed"
+    },
+    {
+      "name": "tests.test_engine_primitives::test_stab_matches_brute_force",
+      "seconds": 0.006,
+      "outcome": "passed"
+    },
+    {
+      "name": "tests.test_engine_primitives::test_window_count_matches_brute_force",
+      "seconds": 0.002,
+      "outcome": "passed"
+    },
+    {
+      "name": "tests.test_engine_primitives::test_never_is_outside_every_window",
+      "seconds": 0.0,
+      "outcome": "passed"
+    },
+    {
+      "name": "tests.test_labels_and_time::test_label_definition",
+      "seconds": 1.867,
+      "outcome": "passed"
+    },
+    {
+      "name": "tests.test_labels_and_time::test_label_observable_no_later_than_rule",
+      "seconds": 1.283,
+      "outcome": "passed"
+    },
+    {
+      "name": "tests.test_labels_and_time::test_utc_ordering",
+      "seconds": 0.811,
+      "outcome": "passed"
+    },
+    {
+      "name": "tests.test_labels_and_time::test_cancelled_never_arrive_diverted_depart",
+      "seconds": 0.119,
+      "outcome": "passed"
+    },
+    {
+      "name": "tests.test_labels_and_time::test_splits_are_chronological_and_disjoint",
+      "seconds": 0.521,
+      "outcome": "passed"
+    },
+    {
+      "name": "tests.test_labels_and_time::test_timezone_validation_thresholds",
+      "seconds": 0.001,
+      "outcome": "passed"
+    },
+    {
+      "name": "tests.test_leakage::test_time_travel_no_leakage",
+      "seconds": 148.426,
+      "outcome": "passed"
+    },
+    {
+      "name": "tests.test_leakage::test_canary_leak_is_detected",
+      "seconds": 0.132,
+      "outcome": "passed"
+    },
+    {
+      "name": "tests.test_leakage::test_stored_features_match_fresh_computation",
+      "seconds": 4.071,
+      "outcome": "passed"
+    },
+    {
+      "name": "tests.test_leakage::test_no_banned_columns",
+      "seconds": 0.003,
+      "outcome": "passed"
+    },
+    {
+      "name": "tests.test_leakage::test_query_rows_expose_schedule_only",
+      "seconds": 0.001,
+      "outcome": "passed"
+    },
+    {
+      "name": "tests.test_report::test_ladder_and_hypotheses_run_and_order",
+      "seconds": 0.458,
+      "outcome": "passed"
+    },
+    {
+      "name": "tests.test_report::test_calibration_conformal_cost_blocks",
+      "seconds": 0.122,
+      "outcome": "passed"
+    }
+  ]
+}

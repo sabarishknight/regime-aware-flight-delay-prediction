@@ -1,0 +1,129 @@
+{
+  "_provenance": {
+    "created_at": "2026-09-28T23:08:15+00:00",
+    "git_commit": "uncommitted",
+    "config_hash": "cf1b7d4a0c10c795",
+    "split": "test"
+  },
+  "H1": {
+    "id": "H1",
+    "better": "LGBM-I2",
+    "worse": "R0",
+    "expect": "better",
+    "rel_brier_improvement": 0.20787125080841296,
+    "ci_low": 0.1908702150490372,
+    "ci_high": 0.2280560055040228,
+    "p_boot_two_sided": 0.0,
+    "significant": true,
+    "pr_auc_diff": 0.2554744629101502,
+    "pr_auc_diff_ci": [
+      0.23924586349152813,
+      0.2757191890281509
+    ],
+    "p_holm": 0.0,
+    "status": "supported"
+  },
+  "H2": {
+    "id": "H2",
+    "better": "LGBM-I3",
+    "worse": "LGBM-I2",
+    "expect": "better; largest info gain",
+    "rel_brier_improvement": 0.2168920593767132,
+    "ci_low": 0.21316126579975472,
+    "ci_high": 0.22065734227270845,
+    "p_boot_two_sided": 0.0,
+    "significant": true,
+    "pr_auc_diff": 0.14152150896313254,
+    "pr_auc_diff_ci": [
+      0.1324980206742454,
+      0.15107797398920028
+    ],
+    "p_holm": 0.0,
+    "status": "supported",
+    "adjacent_information_steps": {
+      "LGBM-I2>LGBM-I1": 0.10270506913133925,
+      "LGBM-I3>LGBM-I2": 0.2168920593767132,
+      "LGBM-I4>LGBM-I3": 0.002176478389134484,
+      "LGBM-I5>LGBM-I4": -0.0008182542539467708
+    },
+    "is_largest_information_step": true
+  },
+  "H3": {
+    "id": "H3",
+    "better": "LGBM-I4",
+    "worse": "LGBM-I3",
+    "expect": "small or not significant",
+    "rel_brier_improvement": 0.002176478389134484,
+    "ci_low": 0.0018428602211897544,
+    "ci_high": 0.002570034372131938,
+    "p_boot_two_sided": 0.0,
+    "significant": true,
+    "pr_auc_diff": 0.0009374371192850672,
+    "pr_auc_diff_ci": [
+      0.0007738368115731892,
+      0.0011467164736292472
+    ],
+    "p_holm": 0.0,
+    "status": "supported (no meaningful lift)"
+  },
+  "H4": {
+    "id": "H4",
+    "better": "CB-I4",
+    "worse": "LGBM-I4",
+    "expect": "practically equivalent (|diff| < SESOI)",
+    "rel_brier_improvement": 0.0034115280729152264,
+    "ci_low": 0.0026929958233489204,
+    "ci_high": 0.004177347470966092,
+    "p_boot_two_sided": 0.0,
+    "significant": true,
+    "pr_auc_diff": 0.001609155814596419,
+    "pr_auc_diff_ci": [
+      0.001319905106499164,
+      0.001937061286873334
+    ],
+    "p_holm": 0.0,
+    "status": "supported (equivalent)"
+  },
+  "H5": {
+    "id": "H5",
+    "better": "LGBM-I5",
+    "worse": "LGBM-I4",
+    "expect": "no lift (< SESOI)",
+    "rel_brier_improvement": -0.0008182542539467708,
+    "ci_low": -0.0010201457545741754,
+    "ci_high": -0.0006005498851867687,
+    "p_boot_two_sided": 0.0,
+    "significant": true,
+    "pr_auc_diff": -0.00022077385141927586,
+    "pr_auc_diff_ci": [
+      -0.00031393063390871553,
+      -0.00012940941338918932
+    ],
+    "p_holm": 0.0,
+    "status": "supported (no meaningful lift)"
+  },
+  "H6": {
+    "id": "H6",
+    "better": "LGBM-I4",
+    "worse": "LR-I4",
+    "expect": "better; gap at I4 > gap at I1",
+    "rel_brier_improvement": 0.11030013153140483,
+    "ci_low": 0.10746843899235159,
+    "ci_high": 0.11329269572083299,
+    "p_boot_two_sided": 0.0,
+    "significant": true,
+    "pr_auc_diff": 0.06633519779193842,
+    "pr_auc_diff_ci": [
+      0.06413458295679221,
+      0.06869919235987534
+    ],
+    "p_holm": 0.0,
+    "status": "supported",
+    "gap_I1": 0.024476315873400267,
+    "gap_I4_minus_gap_I1": 0.08582381565800457,
+    "gap_diff_ci": [
+      0.07726917007977048,
+      0.09590111760236797
+    ]
+  }
+}

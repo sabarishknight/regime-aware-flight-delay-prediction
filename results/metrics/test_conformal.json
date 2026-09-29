@@ -1,0 +1,221 @@
+{
+  "_provenance": {
+    "created_at": "2026-09-28T23:08:15+00:00",
+    "git_commit": "uncommitted",
+    "config_hash": "cf1b7d4a0c10c795",
+    "split": "test",
+    "model": "LGBM-I4"
+  },
+  "alpha": 0.1,
+  "target_coverage": 0.9,
+  "q_split": 0.6377670357087166,
+  "q0_mondrian": 0.2816866575986152,
+  "q1_mondrian": 0.9194568121104185,
+  "coverage_split": 0.8959608285273735,
+  "coverage_split_pos": 0.6091993156792804,
+  "coverage_split_neg": 0.9826265348550441,
+  "coverage_mondrian": 0.8968437782204711,
+  "coverage_mondrian_pos": 0.9090573142834988,
+  "coverage_mondrian_neg": 0.8931525760115419,
+  "coverage_aci": {
+    "0.005": 0.8979252509974309,
+    "0.05": 0.8994302021940738
+  },
+  "set_share_split": {
+    "on time": 0.8038915304737855,
+    "disrupted": 0.11729817956300458,
+    "either": 0.07881028996320996
+  },
+  "set_share_mondrian": {
+    "either": 0.3845039235725494,
+    "on time": 0.3793618663869347,
+    "disrupted": 0.23613421004051585
+  },
+  "monthly_abs_gap_split_mean": 0.006887494376439005,
+  "monthly_abs_gap_aci": {
+    "0.005": 0.005787008637261216,
+    "0.05": 0.003830199666156669
+  },
+  "by_airport": [
+    {
+      "origin": 23,
+      "cov_split": 0.8928019578524805,
+      "cov_mondrian": 0.8806621487056385,
+      "prevalence": 0.22735062478344067
+    },
+    {
+      "origin": 266,
+      "cov_split": 0.8827891520266309,
+      "cov_mondrian": 0.8946746780526726,
+      "prevalence": 0.29253951594221966
+    },
+    {
+      "origin": 100,
+      "cov_split": 0.896090931622284,
+      "cov_mondrian": 0.8901495332250159,
+      "prevalence": 0.24113265221821387
+    },
+    {
+      "origin": 101,
+      "cov_split": 0.8824689818042937,
+      "cov_mondrian": 0.8782187619351289,
+      "prevalence": 0.30091066128936184
+    },
+    {
+      "origin": 78,
+      "cov_split": 0.9023818911334277,
+      "cov_mondrian": 0.8888976505786581,
+      "prevalence": 0.23294292274508893
+    },
+    {
+      "origin": 204,
+      "cov_split": 0.8957933429779281,
+      "cov_mondrian": 0.9184281186848076,
+      "prevalence": 0.20347092830163188
+    },
+    {
+      "origin": 202,
+      "cov_split": 0.8910612634234899,
+      "cov_mondrian": 0.8801993907504846,
+      "prevalence": 0.2509861841902828
+    },
+    {
+      "origin": 281,
+      "cov_split": 0.8993820938691441,
+      "cov_mondrian": 0.8900587229939962,
+      "prevalence": 0.23053705245628642
+    },
+    {
+      "origin": 330,
+      "cov_split": 0.8833016793582131,
+      "cov_mondrian": 0.9024857856676393,
+      "prevalence": 0.20978497264976723
+    },
+    {
+      "origin": 213,
+      "cov_split": 0.9028969817128845,
+      "cov_mondrian": 0.899988260767485,
+      "prevalence": 0.27422847155192653
+    },
+    {
+      "origin": 176,
+      "cov_split": 0.8916356097126649,
+      "cov_mondrian": 0.910893041122375,
+      "prevalence": 0.20157977079331968
+    },
+    {
+      "origin": 227,
+      "cov_split": 0.8839219593639338,
+      "cov_mondrian": 0.8796065653233516,
+      "prevalence": 0.27327687191156474
+    },
+    {
+      "origin": 97,
+      "cov_split": 0.8892768374955616,
+      "cov_mondrian": 0.8838841874778081,
+      "prevalence": 0.2884291040359806
+    },
+    {
+      "origin": 124,
+      "cov_split": 0.8996843913547201,
+      "cov_mondrian": 0.8954256721665135,
+      "prevalence": 0.23858415564699773
+    },
+    {
+      "origin": 49,
+      "cov_split": 0.9008854808526177,
+      "cov_mondrian": 0.8998204695178541,
+      "prevalence": 0.254697460708689
+    },
+    {
+      "origin": 332,
+      "cov_split": 0.8947657998019294,
+      "cov_mondrian": 0.9085133697685508,
+      "prevalence": 0.22706231889373876
+    },
+    {
+      "origin": 109,
+      "cov_split": 0.8936636985417473,
+      "cov_mondrian": 0.8986890149013534,
+      "prevalence": 0.2252890316018006
+    },
+    {
+      "origin": 191,
+      "cov_split": 0.8956321277004489,
+      "cov_mondrian": 0.8881922492533925,
+      "prevalence": 0.24015438621002813
+    },
+    {
+      "origin": 252,
+      "cov_split": 0.8973348586924282,
+      "cov_mondrian": 0.9084106605652302,
+      "prevalence": 0.20619465276895046
+    },
+    {
+      "origin": 280,
+      "cov_split": 0.8975455154939879,
+      "cov_mondrian": 0.8981985354938137,
+      "prevalence": 0.23702013913679462
+    },
+    {
+      "origin": 342,
+      "cov_split": 0.9119142770122475,
+      "cov_mondrian": 0.9321359680292388,
+      "prevalence": 0.15740800561149618
+    },
+    {
+      "origin": 239,
+      "cov_split": 0.8757137270238561,
+      "cov_mondrian": 0.8344446617129448,
+      "prevalence": 0.2723699648025029
+    },
+    {
+      "origin": 47,
+      "cov_split": 0.8882602684655887,
+      "cov_mondrian": 0.8977124535480012,
+      "prevalence": 0.27193661937305735
+    },
+    {
+      "origin": 61,
+      "cov_split": 0.8896188317590344,
+      "cov_mondrian": 0.8286756330752327,
+      "prevalence": 0.275343143458702
+    },
+    {
+      "origin": 319,
+      "cov_split": 0.8889589905362776,
+      "cov_mondrian": 0.8946687697160883,
+      "prevalence": 0.25309148264984227
+    },
+    {
+      "origin": 26,
+      "cov_split": 0.8951564052240072,
+      "cov_mondrian": 0.8880933343025369,
+      "prevalence": 0.24706210171791332
+    },
+    {
+      "origin": 132,
+      "cov_split": 0.8763600042806692,
+      "cov_mondrian": 0.85735858928168,
+      "prevalence": 0.31121654240835206
+    },
+    {
+      "origin": 230,
+      "cov_split": 0.8935188597202365,
+      "cov_mondrian": 0.8364606517990065,
+      "prevalence": 0.2765207906489984
+    },
+    {
+      "origin": 174,
+      "cov_split": 0.9001957652258507,
+      "cov_mondrian": 0.9137792296698414,
+      "prevalence": 0.18921970142800523
+    },
+    {
+      "origin": 364,
+      "cov_split": 0.8977205985176898,
+      "cov_mondrian": 0.9063207942945043,
+      "prevalence": 0.23445671933995246
+    }
+  ]
+}

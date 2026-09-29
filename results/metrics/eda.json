@@ -1,0 +1,100 @@
+{
+  "_provenance": {
+    "created_at": "2026-09-28T19:21:15+00:00",
+    "git_commit": "uncommitted",
+    "config_hash": "25733db6a12e9c40",
+    "split": "development (train+val)"
+  },
+  "dev_rows": 25648606,
+  "dev_days": 1277,
+  "dev_disruption_rate": 0.21997522984290063,
+  "train_disruption_rate": 0.223020777962628,
+  "val_disruption_rate": 0.21283812761608542,
+  "dev_cancel_rate": 0.017406482052085014,
+  "n_anomaly_days": 16,
+  "anomaly_threshold_rate_p99_train": 0.5276572437831746,
+  "anomaly_threshold_cancel_p99_train": 0.16511166292705298,
+  "jul_2024_outage_window": [
+    {
+      "date": "2024-07-18",
+      "rate": 0.3874682546632805,
+      "cancel": 0.04518784482003678,
+      "n": 22838
+    },
+    {
+      "date": "2024-07-19",
+      "rate": 0.6679060408556056,
+      "cancel": 0.1590481606228949,
+      "n": 22861
+    },
+    {
+      "date": "2024-07-20",
+      "rate": 0.45478036175710596,
+      "cancel": 0.09989761591341231,
+      "n": 20511
+    },
+    {
+      "date": "2024-07-21",
+      "rate": 0.45765349219757256,
+      "cancel": 0.09478504423598452,
+      "n": 22493
+    },
+    {
+      "date": "2024-07-22",
+      "rate": 0.4634926196837633,
+      "cancel": 0.07989137576102667,
+      "n": 22831
+    },
+    {
+      "date": "2024-07-23",
+      "rate": 0.4048159296133364,
+      "cancel": 0.049039129428108355,
+      "n": 21595
+    },
+    {
+      "date": "2024-07-24",
+      "rate": 0.33289130733001054,
+      "cancel": 0.01920526773057753,
+      "n": 21869
+    },
+    {
+      "date": "2024-07-25",
+      "rate": 0.2707237995092885,
+      "cancel": 0.005476691202243253,
+      "n": 22824
+    }
+  ],
+  "jul_19_2024_is_anomaly": true,
+  "worst_day": {
+    "date": "2022-12-23 00:00:00",
+    "rate": "0.7130417274877938",
+    "cancel": "0.2774953440378517",
+    "top_carrier": "AS"
+  },
+  "propagation": {
+    "n_links": 23663973,
+    "n_chain_breaks": 459959,
+    "chain_break_share": 0.019066502094268876,
+    "legs_per_tail_day": 4.109571969291858
+  },
+  "late_aircraft_share_of_delay_minutes": 0.3928164541721344,
+  "cause_shares_mean": {
+    "carrier": 0.363481730222702,
+    "weather": 0.05771086737513542,
+    "nas": 0.18411853909492493,
+    "security": 0.0018724541878327727,
+    "late_aircraft": 0.3928164541721344
+  },
+  "busiest_hour_month": {
+    "month": 7,
+    "hour": 20,
+    "rate": 0.45787924845584194
+  },
+  "calmest_hour_month": {
+    "month": 10,
+    "hour": 6,
+    "rate": 0.07015454085406204
+  },
+  "n_airports_dev": 379,
+  "n_routes_dev": 7862
+}

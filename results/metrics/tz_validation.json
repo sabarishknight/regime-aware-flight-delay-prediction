@@ -1,0 +1,73 @@
+{
+  "_provenance": {
+    "created_at": "2026-09-28T19:02:36+00:00",
+    "git_commit": "uncommitted",
+    "config_hash": "25733db6a12e9c40",
+    "wall_seconds": 135.4,
+    "peak_rss_mb": 6563
+  },
+  "n_airports": 387,
+  "n_airports_with_iana_tz": 387,
+  "airports_without_iana_tz": [],
+  "derived_vs_iana_agreement_share": 0.9947780678851175,
+  "derived_vs_iana_disagreements": [
+    {
+      "code": "GUM",
+      "dst": false,
+      "derived_offset_min": -840.0,
+      "iana_offset_min": 600.0,
+      "n_routes": 4
+    },
+    {
+      "code": "SPN",
+      "dst": false,
+      "derived_offset_min": -840.0,
+      "iana_offset_min": 600.0,
+      "n_routes": 2
+    },
+    {
+      "code": "GUM",
+      "dst": true,
+      "derived_offset_min": -840.0,
+      "iana_offset_min": 600.0,
+      "n_routes": 6
+    },
+    {
+      "code": "SPN",
+      "dst": true,
+      "derived_offset_min": -840.0,
+      "iana_offset_min": 600.0,
+      "n_routes": 2
+    }
+  ],
+  "n_rows": 39073000,
+  "crs_arr_reconstruction_match_share": 0.9999501190080107,
+  "crs_arr_reconstruction_mismatches": 1949,
+  "n_dst_ambiguous_or_nonexistent_departures": 35,
+  "n_scheduled_next_day_arrivals": 1653733,
+  "n_departures_crossing_local_midnight_due_to_delay": 212421,
+  "n_gate_return_cancellations": 8854,
+  "n_crs_elapsed_imputed": 34,
+  "mismatch_by_airport_top": {
+    "ATL": 307,
+    "LGA": 278,
+    "BOS": 154,
+    "MDW": 148,
+    "MCO": 125,
+    "DTW": 124,
+    "DEN": 121,
+    "LAS": 112,
+    "MSP": 98,
+    "SLC": 98,
+    "BNA": 93,
+    "DCA": 88,
+    "BWI": 86,
+    "JFK": 84,
+    "ORD": 82
+  },
+  "derived_vs_iana_agreement_share_modulo_24h": 1.0,
+  "date_line_wrap_airports": [
+    "GUM",
+    "SPN"
+  ]
+}

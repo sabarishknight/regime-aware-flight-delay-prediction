@@ -1,0 +1,4 @@
+airports: 387, with IANA tz: 387
+loaded 39,073,000 rows
+{'n_airports': 387, 'n_airports_with_iana_tz': 387, 'derived_vs_iana_agreement_share': 0.9947780678851175, 'n_rows': 39073000, 'crs_arr_reconstruction_match_share': 0.9999501190080107, 'crs_arr_reconstruction_mismatches': 1949, 'n_dst_ambiguous_or_nonexistent_departures': 35, 'n_scheduled_next_day_arrivals': 1653733, 'n_departures_crossing_local_midnight_due_to_delay': 212421, 'n_gate_return_cancellations': 8854, 'n_crs_elapsed_imputed': 34}
+done in 135s, peak RSS 6563 MB

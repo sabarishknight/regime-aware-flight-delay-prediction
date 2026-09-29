@@ -1,0 +1,10 @@
+{
+  "_provenance": {
+    "created_at": "2026-09-28T20:35:38+00:00",
+    "git_commit": "uncommitted",
+    "config_hash": "cf1b7d4a0c10c795"
+  },
+  "preregistration_sha256_after_amendment": "ee0522d3023f76b589a2a3b8b99a14bb3b185803d7e96c269b467b29a9b17e1f",
+  "reason": "CatBoost compute cost; search truncated to 3 configs, I4 only",
+  "made_before": "any validation V-B or test evaluation"
+}

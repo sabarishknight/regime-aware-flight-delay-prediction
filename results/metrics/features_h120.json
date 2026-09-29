@@ -1,0 +1,376 @@
+{
+  "_provenance": {
+    "created_at": "2026-09-28T19:20:49+00:00",
+    "git_commit": "uncommitted",
+    "config_hash": "25733db6a12e9c40",
+    "wall_seconds": 583
+  },
+  "months": [
+    {
+      "month": "2021-04",
+      "rows": 473936,
+      "events": 1005675,
+      "seconds": 11.0
+    },
+    {
+      "month": "2021-05",
+      "rows": 520059,
+      "events": 1081052,
+      "seconds": 9.3
+    },
+    {
+      "month": "2021-06",
+      "rows": 573779,
+      "events": 1172085,
+      "seconds": 10.1
+    },
+    {
+      "month": "2021-07",
+      "rows": 615703,
+      "events": 1288320,
+      "seconds": 11.3
+    },
+    {
+      "month": "2021-08",
+      "rows": 611494,
+      "events": 1311369,
+      "seconds": 11.3
+    },
+    {
+      "month": "2021-09",
+      "rows": 567916,
+      "events": 1266593,
+      "seconds": 10.7
+    },
+    {
+      "month": "2021-10",
+      "rows": 595373,
+      "events": 1265930,
+      "seconds": 10.6
+    },
+    {
+      "month": "2021-11",
+      "rows": 576693,
+      "events": 1254335,
+      "seconds": 10.4
+    },
+    {
+      "month": "2021-12",
+      "rows": 580238,
+      "events": 1255773,
+      "seconds": 10.7
+    },
+    {
+      "month": "2022-01",
+      "rows": 225499,
+      "events": 1229945,
+      "seconds": 6.8
+    },
+    {
+      "month": "2022-02",
+      "rows": 207976,
+      "events": 1166118,
+      "seconds": 6.2
+    },
+    {
+      "month": "2022-03",
+      "rows": 236205,
+      "events": 1249743,
+      "seconds": 7.0
+    },
+    {
+      "month": "2022-04",
+      "rows": 232131,
+      "events": 1258566,
+      "seconds": 6.9
+    },
+    {
+      "month": "2022-05",
+      "rows": 241173,
+      "events": 1286651,
+      "seconds": 7.1
+    },
+    {
+      "month": "2022-06",
+      "rows": 240825,
+      "events": 1287575,
+      "seconds": 7.2
+    },
+    {
+      "month": "2022-07",
+      "rows": 247519,
+      "events": 1325299,
+      "seconds": 7.5
+    },
+    {
+      "month": "2022-08",
+      "rows": 245457,
+      "events": 1319865,
+      "seconds": 7.3
+    },
+    {
+      "month": "2022-09",
+      "rows": 232161,
+      "events": 1277940,
+      "seconds": 6.9
+    },
+    {
+      "month": "2022-10",
+      "rows": 238124,
+      "events": 1279145,
+      "seconds": 6.9
+    },
+    {
+      "month": "2022-11",
+      "rows": 227004,
+      "events": 1248226,
+      "seconds": 6.8
+    },
+    {
+      "month": "2022-12",
+      "rows": 231324,
+      "events": 1242705,
+      "seconds": 6.9
+    },
+    {
+      "month": "2023-01",
+      "rows": 229553,
+      "events": 1235508,
+      "seconds": 6.8
+    },
+    {
+      "month": "2023-02",
+      "rows": 214494,
+      "events": 1190974,
+      "seconds": 6.5
+    },
+    {
+      "month": "2023-03",
+      "rows": 246493,
+      "events": 1291021,
+      "seconds": 7.3
+    },
+    {
+      "month": "2023-04",
+      "rows": 238666,
+      "events": 1301176,
+      "seconds": 7.2
+    },
+    {
+      "month": "2023-05",
+      "rows": 246658,
+      "events": 1323674,
+      "seconds": 7.2
+    },
+    {
+      "month": "2023-06",
+      "rows": 245426,
+      "events": 1314423,
+      "seconds": 7.4
+    },
+    {
+      "month": "2023-07",
+      "rows": 255603,
+      "events": 1361700,
+      "seconds": 7.9
+    },
+    {
+      "month": "2023-08",
+      "rows": 256088,
+      "events": 1368294,
+      "seconds": 7.7
+    },
+    {
+      "month": "2023-09",
+      "rows": 241887,
+      "events": 1337363,
+      "seconds": 7.3
+    },
+    {
+      "month": "2023-10",
+      "rows": 254219,
+      "events": 1350432,
+      "seconds": 7.4
+    },
+    {
+      "month": "2023-11",
+      "rows": 239922,
+      "events": 1319632,
+      "seconds": 7.4
+    },
+    {
+      "month": "2023-12",
+      "rows": 242489,
+      "events": 1307683,
+      "seconds": 7.2
+    },
+    {
+      "month": "2024-01",
+      "rows": 232969,
+      "events": 1273949,
+      "seconds": 6.9
+    },
+    {
+      "month": "2024-02",
+      "rows": 221075,
+      "events": 1218638,
+      "seconds": 6.5
+    },
+    {
+      "month": "2024-03",
+      "rows": 251517,
+      "events": 1302803,
+      "seconds": 7.2
+    },
+    {
+      "month": "2024-04",
+      "rows": 247983,
+      "events": 1337839,
+      "seconds": 7.4
+    },
+    {
+      "month": "2024-05",
+      "rows": 259765,
+      "events": 1379514,
+      "seconds": 7.8
+    },
+    {
+      "month": "2024-06",
+      "rows": 260717,
+      "events": 1393657,
+      "seconds": 9.1
+    },
+    {
+      "month": "2024-08",
+      "rows": 660639,
+      "events": 1428871,
+      "seconds": 12.5
+    },
+    {
+      "month": "2024-09",
+      "rows": 621649,
+      "events": 1373474,
+      "seconds": 11.8
+    },
+    {
+      "month": "2024-10",
+      "rows": 656283,
+      "events": 1385974,
+      "seconds": 12.0
+    },
+    {
+      "month": "2024-11",
+      "rows": 614597,
+      "events": 1366770,
+      "seconds": 11.2
+    },
+    {
+      "month": "2024-12",
+      "rows": 631944,
+      "events": 1350716,
+      "seconds": 11.7
+    },
+    {
+      "month": "2025-01",
+      "rows": 599013,
+      "events": 1311122,
+      "seconds": 11.1
+    },
+    {
+      "month": "2025-02",
+      "rows": 559577,
+      "events": 1247028,
+      "seconds": 11.6
+    },
+    {
+      "month": "2025-03",
+      "rows": 664932,
+      "events": 1371730,
+      "seconds": 16.4
+    },
+    {
+      "month": "2025-04",
+      "rows": 644084,
+      "events": 1405717,
+      "seconds": 12.1
+    },
+    {
+      "month": "2025-05",
+      "rows": 667586,
+      "events": 1430387,
+      "seconds": 12.2
+    },
+    {
+      "month": "2025-06",
+      "rows": 674179,
+      "events": 1434011,
+      "seconds": 12.6
+    },
+    {
+      "month": "2025-07",
+      "rows": 696049,
+      "events": 1488174,
+      "seconds": 13.0
+    },
+    {
+      "month": "2025-08",
+      "rows": 666242,
+      "events": 1456891,
+      "seconds": 12.4
+    },
+    {
+      "month": "2025-09",
+      "rows": 621601,
+      "events": 1384447,
+      "seconds": 11.4
+    },
+    {
+      "month": "2025-10",
+      "rows": 668332,
+      "events": 1397721,
+      "seconds": 12.2
+    },
+    {
+      "month": "2025-11",
+      "rows": 630188,
+      "events": 1390736,
+      "seconds": 11.6
+    },
+    {
+      "month": "2025-12",
+      "rows": 644987,
+      "events": 1385441,
+      "seconds": 11.9
+    },
+    {
+      "month": "2026-01",
+      "rows": 602953,
+      "events": 1342342,
+      "seconds": 11.2
+    },
+    {
+      "month": "2026-02",
+      "rows": 568789,
+      "events": 1264361,
+      "seconds": 10.3
+    },
+    {
+      "month": "2026-03",
+      "rows": 675500,
+      "events": 1390519,
+      "seconds": 12.2
+    },
+    {
+      "month": "2026-04",
+      "rows": 660674,
+      "events": 1431207,
+      "seconds": 12.4
+    },
+    {
+      "month": "2026-05",
+      "rows": 677208,
+      "events": 1411214,
+      "seconds": 12.2
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "_provenance": {
+    "created_at": "2026-09-28T19:01:03+00:00",
+    "git_commit": "uncommitted",
+    "config_hash": "25733db6a12e9c40"
+  },
+  "preregistration_sha256": "84a0e20280ee671b04f917ad7d17ecec1f2b3a603f3379a5104c3db62843877d",
+  "splits_sha256": "7908ea3d6e87a1b6c98be03430d84a427424cbe790e0c47a31e5a124e618d9ac",
+  "frozen_before": "any validation or test evaluation of ladder rungs"
+}
